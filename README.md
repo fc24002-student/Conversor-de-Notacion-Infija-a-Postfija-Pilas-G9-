@@ -7,8 +7,8 @@
 ## 📦 Descargas y Versión Estable
 Para instalar la última versión oficial en tu sistema sin necesidad de compilar código, ve directamente a la sección de lanzamientos o usa el siguiente botón de descarga:
 
-[![Descargar Paquete .deb](https://img.shields.io/badge/Descargar-.deb-blue?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/fc24002-student/Conversor-de-Notacion-Infija-a-Postfija-Pilas-G9-/releases/latest)
-[![Versión](https://img.shields.io/badge/Version-1.0.0--stable-green?style=for-the-badge)](https://github.com/fc24002-student/Conversor-de-Notacion-Infija-a-Postfija-Pilas-G9-/releases)
+[![Descargar Paquete .deb](https://img.shields.io/badge/Descargar-.deb-blue?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/fc24002-student/Conversor-de-Notacion-Infija-a-Postfija-Pilas-G9-/releases/download/v1.0.1/conversor-gp9-1.0.1-Linux.deb)
+[![Versión](https://img.shields.io/badge/Version-1.0.1--stable-green?style=for-the-badge)](https://github.com/fc24002-student/Conversor-de-Notacion-Infija-a-Postfija-Pilas-G9-/releases) 
 
 ---
 
