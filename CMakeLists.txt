@@ -69,6 +69,9 @@ install(TARGETS ConversorLib ARCHIVE DESTINATION lib)
 install(TARGETS TestConversor RUNTIME DESTINATION bin)
 install(DIRECTORY include/ DESTINATION include)
 
+# SE DESCARGA JUNTO CON EL BINARIO DEL PROGRAMA
+install(PROGRAMS "${CMAKE_CURRENT_SOURCE_DIR}/Conversor.sh" DESTINATION bin)
+
 # -------------------------------------------------------------
 # MENSAJES EN CONSOLA
 # -------------------------------------------------------------
@@ -77,3 +80,31 @@ message(STATUS " Proyecto ConversorGP9 configurado correctamente")
 message(STATUS " Compilación estática activada para Windows y Linux")
 message(STATUS " Build type: ${CMAKE_BUILD_TYPE}")
 message(STATUS "==============================================")
+
+# =================================================================
+# CONFIGURACIÓN DE EMPAQUETADO CON CPACK (Generador DEB)
+# =================================================================
+
+# DATOS BASICOS DEL SOFTWARE 
+set(CPACK_PACKAGE_NAME "conversor-gp9")
+set(CPACK_PACKAGE_VERSION "1.0.0")
+set(CPACK_PACKAGE_VENDOR "Jose Flores")
+set(CPACK_PACKAGE_CONTACT "fc24002@ues.edu.sv")
+set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Conversor de notacion infija a postfija usando Pilas")
+
+# FORMATO DEL PAQUETE .deb 
+set(CPACK_GENERATOR "DEB")
+set(CPACK_DEBIAN_PACKAGE_ARCHITECTURE "amd64")
+set(CPACK_DEBIAN_PACKAGE_MAINTAINER "Jose Flores Cortez <fc24002@ues.edu.sv>")
+set(CPACK_DEBIAN_PACKAGE_SECTION "devel")
+set(CPACK_DEBIAN_PACKAGE_PRIORITY "optional")
+
+# INSTALACION DEL ARCHIVO .desktop EN LA RUTA DEL SISTEMAS PARA QUE APAREZCA EL MENU 
+install(FILES "${CMAKE_CURRENT_SOURCE_DIR}/conversor-gp9.desktop"
+        DESTINATION "share/applications")
+
+# INSTALACION DEL ICONO PERSONALIZADO AL PROGRAMA EN EL SISTEMA 
+install(FILES "${CMAKE_CURRENT_SOURCE_DIR}/conversor-logo.png" DESTINATION share/pixmaps)
+
+# INCLUSION DEL MODULO Cpack 
+include(CPack)

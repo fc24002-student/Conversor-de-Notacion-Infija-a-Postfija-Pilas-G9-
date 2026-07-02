@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Conversor Infijo a Postfijo (G9)
+Comment=Conversor de expresiones matematicas usando Pilas en C++
+Exec=/usr/bin/Conversor.sh
+Terminal=true
+Icon=conversor-logo
+Categories=Development;Engineering;
