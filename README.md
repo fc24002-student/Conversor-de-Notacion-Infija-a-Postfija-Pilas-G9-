@@ -7,10 +7,8 @@
 ## 📦 Descargas y Versión Estable
 Para instalar la última versión oficial en tu sistema sin necesidad de compilar código, ve directamente a la sección de lanzamientos o usa el siguiente botón de descarga:
 
-[![Descargar Paquete .deb](https://img.shields.io/badge/Descargar-.deb-blue?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/ing-jos-flores/conversorGP9_linux/releases/latest)
-[![Versión](https://img.shields.io/badge/Version-1.0.0--stable-green?style=for-the-badge)](https://github.com/ing-jos-flores/conversorGP9_linux/releases)
-
-*(Nota: Si el enlace del botón de arriba varía según el nombre exacto de tu usuario o repositorio, puedes cambiarlo manualmente por tu URL real de GitHub).*
+[![Descargar Paquete .deb](https://img.shields.io/badge/Descargar-.deb-blue?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/ing-jos-flores/conversorG9_linux/releases/latest)
+[![Versión](https://img.shields.io/badge/Version-1.0.0--stable-green?style=for-the-badge)](https://github.com/ing-jos-flores/conversorG9_linux/releases)
 
 ---
 
