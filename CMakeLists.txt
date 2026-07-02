@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # Nombre del proyecto sin espacios
-project(ConversorGP9 VERSION 1.0.0 LANGUAGES CXX)
+project(ConversorG9 VERSION 1.0.1 LANGUAGES CXX)
 
 # -------------------------------------------------------------
 # COMPILACIÓN ESTÁTICA EN WINDOWS (SIN DLLs)
@@ -87,7 +87,7 @@ message(STATUS "==============================================")
 
 # DATOS BASICOS DEL SOFTWARE 
 set(CPACK_PACKAGE_NAME "conversor-gp9")
-set(CPACK_PACKAGE_VERSION "1.0.0")
+set(CPACK_PACKAGE_VERSION "1.0.1")
 set(CPACK_PACKAGE_VENDOR "Jose Flores")
 set(CPACK_PACKAGE_CONTACT "fc24002@ues.edu.sv")
 set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Conversor de notacion infija a postfija usando Pilas")
@@ -95,7 +95,7 @@ set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Conversor de notacion infija a postfija u
 # FORMATO DEL PAQUETE .deb 
 set(CPACK_GENERATOR "DEB")
 set(CPACK_DEBIAN_PACKAGE_ARCHITECTURE "amd64")
-set(CPACK_DEBIAN_PACKAGE_MAINTAINER "Jose Flores Cortez <fc24002@ues.edu.sv>")
+set(CPACK_DEBIAN_PACKAGE_MAINTAINER "Jose Flores <fc24002@ues.edu.sv>")
 set(CPACK_DEBIAN_PACKAGE_SECTION "devel")
 set(CPACK_DEBIAN_PACKAGE_PRIORITY "optional")
 
